@@ -1146,7 +1146,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #11dbba;
+  background: #83ffde;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2244,22 +2244,34 @@ embed {
   width: 320px;
 }
 body {
-  background: url("/images/love.png");
+  background: url("https://gitee.com/yanabcd/blog_image/raw/master/xingkong.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
 }
-.sidebar {
-  transition-duration: 0.4s;
+.header-inner {
+/* // 也可以同时定义背景色 */
+/* // background: #ddd  */
+/* // 透明度 */
   opacity: 0.8;
+  color: #01ffff !important;
+}
+/* // sidebar侧边工具栏样式属性 */
+.sidebar {
+/* // 动画过渡时间 */
+  transition-duration: 0.4s;
+/* // 透明度 */
+  opacity: 1.2;
 }
 .posts-expand .post-title-link {
-  color: #222;
+  color: #01ffff;
 }
 .post-block {
-  background: #fff;
-  border-radius: initial;
+/* //background: var(--content-bg-color) */
+/* //background: #fff border-radius: initial */
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   padding: 40px;
+  opacity: 2 !important;
+  color: #fff;
 }
